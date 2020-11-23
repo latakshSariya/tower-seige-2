@@ -71,6 +71,8 @@ function draw() {
   drawSprites();
   block1.score();
   fill("red");
+	textSize(30);
+  text("Press Space To Play Again" , 100 , 100);
   //textSize(30);
   //text("Score: " + score , 100,100)
   ground1.display();
